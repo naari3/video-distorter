@@ -1,0 +1,6 @@
+/target
+/pngs
+/dest
+*.mp4
+*.mkv
+/ImageMagick*

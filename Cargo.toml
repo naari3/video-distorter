@@ -1,0 +1,12 @@
+[package]
+name = "video-distorter"
+version = "0.1.0"
+authors = ["naari3 <naari.named@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.5.0", features = ["full"] }
+magick_rust = { git = "https://github.com/nlfiedler/magick-rust", rev = "40f8c58b5b3ddef38097b8a4be2b419f211a7de7"}
+futures = "0.3.15"
